@@ -1,11 +1,19 @@
 {
   "name": "myapp",
   "version": "0.0.0",
+  "description": "Portfolio website made with ExpressJS",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "SET DEBUG=express-locallibrary-tutorial:* & npm run devstart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraydanBrown/Portfolio-Site.git"
   },
   "dependencies": {
+    "connect": "^3.7.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "^3.1.8",
