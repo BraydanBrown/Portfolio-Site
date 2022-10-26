@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio website made with ExpressJS",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BraydanBrown/Portfolio-Site#readme",
   "dependencies": {
-    "connect": "^3.7.0"
+    "connect": "^3.7.0",
+    "express": "^4.18.2"
   }
 }
