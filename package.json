@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website made with ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraydanBrown/Portfolio-Site.git"
+  },
+  "author": "Braydan Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BraydanBrown/Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/BraydanBrown/Portfolio-Site#readme",
+  "dependencies": {
+    "connect": "^3.7.0"
+  }
+}
