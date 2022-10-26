@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
-    "serverstart": "SET DEBUG=express-locallibrary-tutorial:* & npm run devstart"
+    "serverstart": "SET DEBUG=myapp:* & npm run devstart"
   },
   "repository": {
     "type": "git",
