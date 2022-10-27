@@ -13,6 +13,7 @@
     "url": "git+https://github.com/BraydanBrown/Portfolio-Site.git"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
     "bootstrap": "^5.2.2",
     "connect": "^3.7.0",
     "cookie-parser": "~1.4.4",
