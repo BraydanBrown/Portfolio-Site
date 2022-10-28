@@ -3,9 +3,52 @@
 <!-- Main Content -->
 <main>
     <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">Welcome to tawdawdhe <%= title %> page</h1>
-    </div>
+        <div class="container">
+            <h1 class="display-4">
+                <%= title %>
+            </h1>
+            <div class="wrapper">
+
+                <div class="container" id="contact-page">
+
+                    <form id="contact" action="mailto:braydan.brown@ontariotechu.net" method="post"
+                        enctype="text/plain">
+
+                        <h1>Contact Form</h1>
+
+                        <ul>
+                            <li>
+                                <input placeholder="Name" type="text" name="name" id="name" required>
+                                <label class="visually-hidden" for="name">Name</label>
+                            </li>
+
+                            <li>
+                                <input placeholder="Email Address" type="email" name="email" id="email" required>
+                                <label class="visually-hidden" for="email">Email</label>
+                            </li>
+
+                            <li>
+                                <input placeholder="Phone Number" type="number" name="phone" id="phone" required>
+                                <label class="visually-hidden" for="phone">Phone</label>
+                            </li>
+
+                            <li>
+                                <textarea placeholder="Message" type="text" name="message" id="message" required></textarea>
+                                <label class="visually-hidden" for="message">Message</label>
+                            </li>
+
+                            <li>
+                                <button type="submit" id="form-submit">Submit</button>
+                            </li>
+                        </ul>
+
+                    </form>
+
+                </div>
+
+
+            </div>
+        </div>
     </div>
 </main>
 <%- include ('partials/bottom_nav.ejs') %>
