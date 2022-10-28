@@ -2,10 +2,73 @@
 <%- include('partials/main_nav.ejs') %>
 <!-- Main Content -->
 <main>
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid min-vh-100">
     <div class="container">
       <h1 class="display-4"><%= title %></h1>
+
+      <!--
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Tic Tac Toe Game</h5>
+                <p class="card-text">Tic tac toe with a dynamically generated board size based on user input.</p>
+                <img src="images/eggs.jpg" class="card-img-top" alt="Tic Tac Toe">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Calendar App</h5>
+                <p class="card-text">Generates a calender based on user input. Yearly or monthly calendars can be chosen.</p>
+                <img src="images/calendar.jpg" class="card-img-top" alt="Calendar">
+              </div>
+            </div>
+          </div>
+      </div>
+      -->
+      <div class="container-fluid text-left">
+        <div class="row">
+          <div class="col-sm d-flex">
+            <div class="card flex-fill">
+              <div class="card-body flex-fill">
+                <h5 class="card-title">Tic Tac Toe Game</h5>
+                <p class="card-text">Tic tac toe with a dynamically generated board size based on user input.</p>
+                <img src="images/eggs.jpg" class="card-img-top" alt="Tic Tac Toe">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm d-flex">
+            <div class="card flex-fill">
+              <div class="card-body flex-fill">
+                <h5 class="card-title">Calendar App</h5>
+                <p class="card-text">Generates a calender based on user input. Yearly or monthly calendars can be chosen.</p>
+                <img src="images/calendar.jpg" class="card-img-top" alt="Calendar">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col h-100">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Intersect Lists</h5>
+                <p class="card-text">Interest two lists, outputting intersected numbers to new list.</p>
+                <img src="images/chicken.jpg" class="card-img-top" alt="Intersect List">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
+
+    
   </div>
 </main>
 <%- include ('partials/bottom_nav.ejs') %>
