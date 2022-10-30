@@ -101,8 +101,8 @@
 }
 
 @media (min-width: 0px) and (max-width: 991.98px) {
-    .row {
-        flex-direction: column;
+    .row, .container.d-flex.flex-row-reverse {
+        flex-direction: column!important;
     }
 }
 
