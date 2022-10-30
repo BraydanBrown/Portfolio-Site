@@ -54,7 +54,7 @@
     text-align: center;
     width: 100%;
     border: none;
-    background-color: #00c3ff;
+    background-color: #1ed0f0;
     color: black;
     cursor: pointer;
     font-size: 18px;
@@ -63,6 +63,12 @@
     padding: 10px;
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.6);
     border-radius: 4px;
+    font-weight: 500;
+}
+
+#contact button:hover {
+    background-color: #00c3ff;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.6);
 }
 
 #contact ul {
@@ -86,10 +92,16 @@
     object-fit: cover;
 }
 
-.badge {
+/* .badge {
     background-color: #6c757d;
-}
+} */
 
 .row.g-2:nth-child(2) {
     padding-top: 0.5rem;
+}
+
+@media (min-width: 0px) and (max-width: 991.98px) {
+    .row {
+        flex-direction: column;
+    }
 }
