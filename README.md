@@ -20,6 +20,8 @@
 
 # Additional Information #
 
+- "Rock Paper Scissors" image is clickable to view and use the JavaScript code. On the projects page.
+
 # run app #
 - Powershell: "$env:DEBUG='myapp:*'; npm start:" -> run app using node
 
