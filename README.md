@@ -3,13 +3,14 @@
 
 - Website made using ExpressJS and NodeJS
 
-
+##
 # Sources #
 - Bootstrap documentation and examples:
     - https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
 # EJS Skeleton Website Information #
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website
+##
 
 # Additional Information #
 
