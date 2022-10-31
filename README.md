@@ -3,14 +3,20 @@
 
 - Website made using ExpressJS and NodeJS
 
-##
 # Sources #
 - Bootstrap documentation and examples:
     - https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
+- Tic Tac Toe Image
+    - https://dictionary.cambridge.org/dictionary/english/tic-tac-toe
+
+- Calendar Image
+    - https://unsplash.com/photos/FoKO4DpXamQ
+
+- Professor Ahmed's Video Instructions
+
 # EJS Skeleton Website Information #
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website
-##
 
 # Additional Information #
 

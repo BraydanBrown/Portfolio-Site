@@ -54,8 +54,9 @@
     text-align: center;
     width: 100%;
     border: none;
-    background-color: #00EBFE;
-    color: black;
+    background-color: #0D6EFD;
+    color: white;
+    /* color: black; */
     cursor: pointer;
     font-size: 18px;
     height: 35px;
@@ -92,10 +93,6 @@
     object-fit: cover;
 }
 
-/* .badge {
-    background-color: #6c757d;
-} */
-
 .row.g-2:nth-child(2) {
     padding-top: 0.5rem;
 }
@@ -108,4 +105,8 @@
 
 .footer, footer .nav-link.px-2 {
     color:#666F75;
+}
+
+.card-img-top.img-fluid {
+    max-height: 422px;
 }
