@@ -1,23 +1,22 @@
-# Portfolio-Site
+# Portfolio-Site #
 - Web &amp; Script Programming Assignment2
 
 Website made using ExpressJS and NodeJS
 
 
+# Sources #
+- Bootstrap documentation and examples:
+    - https://getbootstrap.com/docs/5.2/getting-started/introduction/
 
-
-# EJS Skeleton Website Information
+# EJS Skeleton Website Information #
 - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website
 
-# package.json
-- "private": true, -> This is a private project
+# Additional Information #
 
-# run app
+# run app #
 - Powershell: "$env:DEBUG='myapp:*'; npm start:" -> run app using node
 
-- "npm run <scriptname>" -> "npm run devstart" -> "run app using nodemon" -> "nodemon <filename>"
-
-# adding new page to website
+# adding new page to website #
 - go to \routes
     - create new js file
     - add new route to app.js
