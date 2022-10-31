@@ -1,7 +1,7 @@
 # Portfolio-Site #
 - Web &amp; Script Programming Assignment2
 
-Website made using ExpressJS and NodeJS
+- Website made using ExpressJS and NodeJS
 
 
 # Sources #
