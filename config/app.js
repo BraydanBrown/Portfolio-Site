@@ -20,29 +20,26 @@ mongDB.once('open', ()=> {
 //Add new router modules
 let indexRouter = require('../routes/index');
 let usersRouter = require('../routes/users');
-// var aboutRouter = require('./routes/about');
-// var projectsRouter = require('./routes/projects');
-// var contactRouter = require('./routes/contact');
+let booksRouter = require('../routes/book');
+
 
 let app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '../views'));
 app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'node_modules')));
+app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static(path.join(__dirname, '../node_modules')));
 
 //Add new router modules
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-// app.use('/about', aboutRouter);
-// app.use('/projects', projectsRouter);
-// app.use('/contact', contactRouter);
+app.use('/book-list', booksRouter); //localhost:3000/index/book-list
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

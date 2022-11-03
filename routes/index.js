@@ -26,4 +26,8 @@ router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About' });
 });
 
+// router.get('/book-list', function(req, res, next) {
+//   res.render('book-list', { title: 'Book List' });
+// });
+
 module.exports = router;
