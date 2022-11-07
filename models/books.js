@@ -13,5 +13,5 @@ let bookModel = mongoose.Schema({
     }
 );
 
-module.exports = mongoose.model('Book', bookModel);
+module.exports = mongoose.model('book', bookModel);
 

@@ -9,13 +9,15 @@ let mongoose = require('mongoose');
 let DB = require('./db');
 
 //point mongoose to DB URI
-
 mongoose.connect(DB.URI);
 let mongDB = mongoose.connection;
 mongDB.on('error', console.error.bind(console, 'Connection Error:'));
 mongDB.once('open', ()=> {
   console.log("Connected to MongoDB...");
 });
+
+//express validator, allows input to be sanitized and validated
+const { body, validationResult } = require("express-validator");
 
 //Add new router modules
 let indexRouter = require('../routes/index');
@@ -39,6 +41,8 @@ app.use(express.static(path.join(__dirname, '../node_modules')));
 //Add new router modules
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+//BOOK LIST ROUTE, DISPLAYS BOOK LIST DATABASE
 app.use('/book-list', booksRouter); //localhost:3000/index/book-list
 
 // catch 404 and forward to error handler
