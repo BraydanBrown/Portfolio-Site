@@ -16,8 +16,8 @@ mongDB.once('open', ()=> {
   console.log("Connected to MongoDB...");
 });
 
-//express validator, allows input to be sanitized and validated
-const { body, validationResult } = require("express-validator");
+// //express validator, allows input to be sanitized and validated
+// const { body, validationResult } = require("express-validator");
 
 //Add new router modules
 let indexRouter = require('../routes/index');
