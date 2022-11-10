@@ -24,7 +24,6 @@ let indexRouter = require('../routes/index');
 let usersRouter = require('../routes/users');
 let booksRouter = require('../routes/book');
 
-
 let app = express();
 
 // view engine setup
