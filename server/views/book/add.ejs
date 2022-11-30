@@ -1,0 +1,69 @@
+<%- include('../partials/header.ejs') %>
+<%- include('../partials/main_nav.ejs') %>
+
+<main>
+    <div class="jumbotron jumbotron-fluid flex-shrink-0">
+        <div class="container py-5">
+            <h1 class="display-4 text-center"></h1>
+            <div class="wrapper">
+
+                <div class="container" id="contact-page">
+
+                    <form class="form" method="post" id="contact">
+            
+                        <h1>Insert Book</h1>
+            
+                        <ul>
+
+                            <div class="form-group">
+                                <li>
+                                    <input class="form-control" placeholder="Book Title" type="text" name="name" id="nameTextField" required>
+                                    <label class="visually-hidden" for="nameTextField">Name</label>
+                                </li>
+                            </div>
+            
+                            <div class="form-group">
+                                <li>
+                                    <input class="form-control" placeholder="Author" type="text" name="author" id="authorTextField" required>
+                                    <label class="visually-hidden" for="authorTextField">Author</label>
+                                </li>
+                            </div>
+            
+                            <div class="form-group">
+                                <li>
+                                    <input class="form-control" placeholder="Publication Year" type="number" name="published" id="publishedTextField" required>
+                                    <label class="visually-hidden" for="publishedTextField">Publication Year</label>
+                                </li>
+                            </div>
+                                
+                            <div class="form-group">
+                                <li>
+                                    <textarea class="form-control" placeholder="Description" type="text" name="description" id="descriptionTextField" required></textarea>
+                                    <label class="visually-hidden" for="descriptionTextField">Description</label>
+                                </li>
+                            </div>
+                             
+                            <div class="form-group">
+                                <li>
+                                    <input class="form-control" placeholder="Price" type="number" name="price" id="priceTextField" required>
+                                    <label class="visually-hidden" for="priceTextField">Price</label>
+                                </li>
+                            </div>
+            
+                            <!-- <li> -->
+                            <button class="btn btn-primary" type="submit" id="form-submit">Submit</button>
+                            <!-- </li> -->
+                        </ul>
+            
+                    </form>
+            
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<%- include ('../partials/bottom_nav.ejs') %>
+<%- include ('../partials/footer.ejs') %>
